@@ -1,0 +1,16 @@
+{
+  "aspect_labels": {
+    "ambiance": 0,
+    "cleanliness": 1,
+    "food_quality": 2,
+    "price": 3,
+    "service": 4
+  },
+  "sentiment_labels": {
+    "negative": 0,
+    "neutral": 1,
+    "positive": 2
+  },
+  "num_aspects": 5,
+  "num_sentiments": 3
+}
