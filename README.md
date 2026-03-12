@@ -2,7 +2,8 @@
 Reinforcement Learning-Augmented Fine-Tuning for Aspect-Based Sentiment Analysis in Bangla
 
 ---
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18986512.svg)](https://doi.org/10.5281/zenodo.18986512)
+---
 This repository contains the code, dataset, and results for my research paper on **Bangla Aspect-Based Sentiment Analysis (ABSA)**.
 
 The goal is to teach a language model to read a Bangla restaurant review and answer two questions at the same time:
