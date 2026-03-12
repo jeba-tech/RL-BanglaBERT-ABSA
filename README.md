@@ -176,8 +176,8 @@ If you use this code or dataset in your research, please cite:
   author  = {Fawjia, Jeba},
   journal = {Under Review at Neurocomputing},
   year    = {2025},
-  doi     = {10.5281/zenodo.XXXXXXX}
-  url     = {https://github.com/jeba-tech/RL-BanglaBERT-ABSA}
+  doi     = {10.5281/zenodo.18986512},
+  url     = {https://doi.org/10.5281/zenodo.18986512}
 }
 ```
 ---
