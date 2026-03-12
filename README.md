@@ -60,8 +60,27 @@ Bangla restaurant reviews collected from online food delivery platforms in Bangl
 **3 Complexity levels:** Simple · Medium · Complex
 
 
+For full dataset documentation see [`data/README_data.md`](data/README_data.md).
 
 ---
+
+
+## How to Reproduce the Results
+
+### Option 1 — Kaggle (Easiest, Recommended)
+
+The full experiment was run on Kaggle with GPU support.
+
+The notebook runs all three models (Baseline BanglaBERT, mBERT, RL-BanglaBERT) across all three seeds in a single execution.
+
+### Option 2 — Local Setup
+
+> **Note:** Local training requires a GPU with at least 16GB VRAM.
+> The RL training stage (20 epochs) takes approximately 3-4 hours on a single A100.
+
+---
+
+
 ## Seeds and Reproducibility
 
 All experiments use three fixed random seeds for statistical reliability:
@@ -88,7 +107,7 @@ Adversarial samples were generated using four **word-level perturbation** techni
 | Random Insertion | Duplicates and inserts N random words (N = max(1, len÷10)) |
 | Mixed | Applies deletion (p=0.08) then swap (N=1) together |
 
-To generate adversarial data yourself:
+To generate adversarial data:
 ```bash
 python src/adversarial_generation.py
 ```
@@ -143,6 +162,25 @@ pip install -r requirements.txt
 Both models are downloaded automatically via HuggingFace `transformers` when the notebook runs.
 
 ---
+
+## Citation
+
+If you use this code or dataset in your research, please cite:
+
+```bibtex
+@article{fawjia2025rlbanglabert,
+  title   = {Reinforcement Learning-Augmented Fine-Tuning for 
+             Aspect-Based Sentiment Analysis in Bangla Using 
+             Pre-Trained Language Models},
+  author  = {Fawjia, Jeba},
+  journal = {Under Review at Neurocomputing},
+  year    = {2025},
+  doi     = {10.5281/zenodo.XXXXXXX}
+  url     = {https://github.com/jeba-tech/RL-BanglaBERT-ABSA}
+}
+```
+---
+
 ## License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.

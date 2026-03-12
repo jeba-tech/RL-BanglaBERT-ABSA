@@ -7,10 +7,11 @@
 
 This dataset contains **Bangla restaurant reviews** collected from online food delivery platforms and restaurant review sites in Bangladesh. Each review is annotated with an **aspect category** and a **sentiment polarity** for use in Aspect-Based Sentiment Analysis (ABSA) research.
 
+
 This dataset was created to support the paper:
 
 > **"Reinforcement Learning-Augmented Fine-Tuning for Aspect-Based Sentiment Analysis in Bangla Using Pre-Trained Language Models"**  
-
+> [Jeba Fawjia], [2025] — Under Review
 
 ---
 
@@ -148,10 +149,38 @@ AUGMENTATION_RATIO_IN_TRAINING = 20%  (520 of 3,339 total)
 - **Language:** Bangla (Bengali script)
 - **Domain:** Restaurant reviews (food, service, price, ambiance, cleanliness)
 - **Annotation:** Manual annotation by the authors
-- **Collection period:** 2024
+- **Collection period:** 2025
+
 
 ---
 
+## Important Notes for Reproducibility
+
+1. All CSV files use **UTF-8-sig encoding** to correctly handle Bangla Unicode characters
+2. The `test.csv` and adversarial samples were **never used during training** for Baseline and mBERT models
+3. For RL-BanglaBERT, only `train_with_adversarial.csv` was used for training — not the raw adversarial file
+4. The adversarial test evaluation uses a **separate 520-sample held-out set** from the adversarial data
+5. Label distributions are **approximately balanced** across all splits
+
+---
+
+## Citation
+
+If you use this dataset in your research, please cite:
+
+```bibtex
+@article{fawjia2025rlbanglabert,
+  title   = {Reinforcement Learning-Augmented Fine-Tuning for 
+             Aspect-Based Sentiment Analysis in Bangla Using 
+             Pre-Trained Language Models},
+  author  = {Fawjia, Jeba},
+  journal = {Under Review at Neurocomputing},
+  year    = {2025},
+  doi     = {10.5281/zenodo.XXXXXXX}
+}
+```
+
+---
 
 ## License
 
