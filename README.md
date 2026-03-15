@@ -1,5 +1,5 @@
 # RL-BanglaBERT-ABSA
-Reinforcement Learning-Augmented Fine-Tuning for Aspect-Based Sentiment Analysis in Bangla
+Adversarially Robust Aspect-Based Sentiment Analysis for Low-Resource Languages: A Reinforcement Learning Framework with Bangla as a Case Study
 
 ---
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18986512.svg)](https://doi.org/10.5281/zenodo.18986512)
