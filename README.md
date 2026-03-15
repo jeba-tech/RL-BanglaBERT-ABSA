@@ -16,7 +16,7 @@ The key contribution is using **Reinforcement Learning (PPO)** on top of the sta
 
 ## Paper
 
-> **"Reinforcement Learning-Augmented Fine-Tuning for Aspect-Based Sentiment Analysis in Bangla Using Pre-Trained Language Models"**
+> **"Adversarially Robust Aspect-Based Sentiment Analysis for Low-Resource Languages: A Reinforcement Learning Framework with Bangla as a Case Study"**
 >
 
 ---
@@ -169,14 +169,12 @@ If you use this code or dataset in your research, please cite:
 
 ```bibtex
 @article{fawjia2025rlbanglabert,
-  title   = {Reinforcement Learning-Augmented Fine-Tuning for 
-             Aspect-Based Sentiment Analysis in Bangla Using 
-             Pre-Trained Language Models},
+  title   = {Adversarially Robust Aspect-Based Sentiment Analysis for Low-Resource Languages: A Reinforcement Learning Framework with Bangla as a Case Study},
   author  = {Fawjia, Jeba},
-  journal = {Under Review at Neurocomputing},
+  journal = {Under Review},
   year    = {2025},
-  doi     = {10.5281/zenodo.XXXXXXX}
-  url     = {https://github.com/jeba-tech/RL-BanglaBERT-ABSA}
+  doi     = {10.5281/zenodo.18986512}
+  url     = {https://doi.org/10.5281/zenodo.18986512}
 }
 ```
 ---
