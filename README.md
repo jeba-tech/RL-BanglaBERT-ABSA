@@ -2,7 +2,7 @@
 Adversarially Robust Aspect-Based Sentiment Analysis for Low-Resource Languages: A Reinforcement Learning Framework with Bangla as a Case Study
 
 ---
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18986512.svg)](https://doi.org/10.5281/zenodo.18986512)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18986512-blue)](https://doi.org/10.5281/zenodo.18986512)
 ---
 This repository contains the code, dataset, and results for my research paper on **Bangla Aspect-Based Sentiment Analysis (ABSA)**.
 
